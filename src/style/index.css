@@ -2,9 +2,11 @@ body,
 html {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
+  height: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
@@ -17,4 +19,94 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  background-color: #3b5998;
+}
+.header-left{
+  display: flex;
+  align-items: center;
+}
+.header-logo{
+  padding-left: 150px;
+  color: white;
+}
+.header-register-button{
+  width: 50px;
+  height: 28px;
+  margin-left: 10px;
+  margin-top: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 5%;
+}
+.header-right{
+   display: flex;
+  align-items: center;
+  padding-right: 150px;
+ }
+.header-join-facebook{
+  font-size: 13px;
+  color: white;
+}
+.header-triangle{
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  margin-top: 8px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:  white  transparent transparent transparent
+}
+.main{
+  padding-left: 150px;
+  background-color: #e9ebee;
+  padding-right: 150px;
+  height: 90%;
+}
+.main-title{
+  margin: 0;
+  padding-top:20px;
+}
+.main-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.main-product-left{
+  width: 500px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
+  align-content: center;
+}
+.product-title{
+  margin: 0;
+  margin-top:20px;
+}
+.product-text{
+  margin-top: 10px;
+  color: gray;
+  font-size: 14px;
+}
+.product-button{
+  margin-top: 60px;
+  width: 40px;
+  height: 25px;
+  border: 1px solid lightgrey;
+  background-color: #e9ebee;
+  border-radius: 5%;
+}
+.main-product-right{
+  width: 500px;
+  text-align: center;
+  padding-top: 10px;
+  background-color: white;
 }
